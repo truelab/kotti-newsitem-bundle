@@ -1,0 +1,23 @@
+{
+    "name": "truelab/kotti-newsitem-bundle",
+    "description": "A symfony2 bundle that provides integration for News Item content type for Kotti.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruben Barilani",
+            "email": "ruben.barilani.dev@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {"Truelab\\KottiNewsItemBundle\\" : "./"}
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "truelab/kotti-model-bundle" : "dev-master"
+    },
+    "require-dev": {},
+    "scripts" : {},
+    "repositories" : [
+        { "type":"git", "url":"https://github.com/truelab/kotti-model-bundle.git" }
+    ]
+}
